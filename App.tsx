@@ -5,7 +5,8 @@ import { TailwindProvider } from "tailwindcss-react-native";
 import { NavigationContainer } from "@react-navigation/native"
 import Register from "./screens/Register";
 import Dashboard from "./screens/Dashboard";
-import Adress from "./screens/adress";
+// import Searchbar from "./screens/searchbar";
+
 const App: React.FC = () => {
   return (
     <>
@@ -13,7 +14,9 @@ const App: React.FC = () => {
         <TailwindProvider>
         <NavigationContainer>
           <StatusBar style="light" />
-          <Adress />
+
+    
+          {/* <Searchbar /> */}
           <Login />
           <Register/>
           <Dashboard />

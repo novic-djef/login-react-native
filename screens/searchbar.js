@@ -6,7 +6,7 @@ import MainContainer from "../components/Container/MainContainer";
 
 
 
-const Adress = () => {
+const Searchbar = () => {
 
     useEffect(() => {
         fetchPosts();
@@ -102,4 +102,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default Adress;
+export default Searchbar;
